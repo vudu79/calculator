@@ -1,4 +1,6 @@
 package calculator;
+
+
 interface Plus {
      int plus(int a, int b);
 }

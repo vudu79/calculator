@@ -30,7 +30,6 @@ public class ConsoleCalculator extends Calculator implements Plus, Minus, Multip
 
             while (!isClear) {
                 System.out.println("Введите операцию или команду (+, -, *, /, с - очистить, s - выход)");
-
                 String operationString = scanner.next();
                 char operation;
                 if (operationString.length() == 1) {
